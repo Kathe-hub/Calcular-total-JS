@@ -1,0 +1,81 @@
+p {
+    display: block;
+    padding: 5px;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(213, 189, 213);
+}
+
+main > section {
+    width: 40%;
+    height: 550px;
+    margin: 0 auto;
+}
+
+main > section > article {
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-color: rgb(74, 9, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+main > section > article > div > img {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+main > section > article > div > p {
+    text-align: center;
+    color: antiquewhite;
+    font-weight: 800;
+}
+
+main > section > section {
+    width: 30%;
+    height: 100%;
+    background-color:rgb(171, 68, 149);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#contenedor2 > div {
+    line-height: 40px;
+}
+
+#color-final {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+#contenedor-form {
+    padding: 20px;
+}
+
+#color {
+    width: 170px;
+}
+
+#calculo {
+    background-color: rgba(198, 49, 148, 0.747);
+    color: antiquewhite;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 700;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);;
+}
+
