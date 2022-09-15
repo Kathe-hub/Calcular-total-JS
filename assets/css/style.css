@@ -52,14 +52,19 @@ main > section > section {
 }
 
 #contenedor2 > div {
-    line-height: 40px;
+    line-height: 25px;
 }
 
 #color-final {
     width: 20px;
     height: 20px;
     border-radius: 100%;
+    padding: 10px;
     background-color: red;
+}
+
+.colorfinal {
+    display: flex;
 }
 
 #contenedor-form {
